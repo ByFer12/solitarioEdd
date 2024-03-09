@@ -12,7 +12,7 @@ CARPETASCPP = ClasesCpp
 SRCS = $(wildcard $(CARPETASCPP)/*.cpp)
 
 # Agrega el archivo main.cpp a la lista de archivos de implementación
-SRCS += main.cppP
+SRCS += main.cpp
 
 # Objetos generados a partir de los archivos de implementación
 OBJS = $(SRCS:.cpp=.o)
